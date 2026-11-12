@@ -1,103 +1,118 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Imagica Desktop Logo" width="120" style="border-radius: 20px;" />
+<img src="assets/logo.png" alt="Imagica Desktop" width="110" />
 
 # Imagica Desktop
 
-**High-Performance Local AI Creative Studio with RapidRAW Lumetri Suite**
+**A local AI image studio. Make and edit pictures with the quality of ComfyUI, in a simple app, on your own computer.**
 
-[![Release](https://img.shields.io/github/v/release/Ordryth/imagica-releases?color=blue&label=version)](https://github.com/Ordryth/imagica-releases/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen)](https://github.com/Ordryth/imagica-releases/releases/latest)
+[![Release](https://img.shields.io/github/v/release/Ordryth/imagica-releases?color=blue&label=release)](https://github.com/Ordryth/imagica-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Ordryth/imagica-releases/total?color=success)](https://github.com/Ordryth/imagica-releases/releases)
+[![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen)](https://github.com/Ordryth/imagica-releases/releases/latest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-orange)](LICENSE)
-[![Local Inference](https://img.shields.io/badge/inference-100%25%20Local%20%26%20Private-purple)]()
 
-[**Download Latest Release**](https://github.com/Ordryth/imagica-releases/releases/latest) • [**Website**](https://imagica.co.in) • [**Documentation**](https://imagica.co.in/docs)
+[**Download**](https://github.com/Ordryth/imagica-releases/releases/latest) · [Website](https://imagica.co.in) · [Docs](https://imagica.co.in/docs) · [Report a problem](https://github.com/Ordryth/imagica-releases/issues)
+
+<br/>
+
+<img src="assets/showcase/A93Q0PPHR616HEVPWEW35SXJG0.webp" height="200" />
+<img src="assets/showcase/XHP4F49BF3TC0M0163V4F0GGB0.webp" height="200" />
+<img src="assets/showcase/ASMP4Q8E78TCGCG51N1A2Z2HK0.webp" height="200" />
+<img src="assets/showcase/64390NZJ71D9T8ZG7SM44C8HZ0.webp" height="200" />
+<img src="assets/showcase/1YRE7MVJA8Z7H93PZNPK61DE80.webp" height="200" />
 
 </div>
 
 ---
 
-## 🚀 Overview
+## What it is
 
-**Imagica Desktop** is a modern, privacy-focused desktop application for AI-powered digital art and creative image generation. Powered by Tauri and Rust, it provides maximum hardware efficiency, instant startup times, and minimal memory overhead.
+Imagica Desktop makes and edits AI images entirely on your computer. It sets up its own image engine (built on ComfyUI) and gives you a clean studio on top: pick a model, write a prompt, generate, edit, upscale.
 
-All AI models and inference engines run **100% locally** on your device with hardware acceleration (CUDA, Apple Metal, DirectML). Your prompts, creative assets, and generated images never leave your machine.
+- **No setup.** No Python, no node graphs, no command line. The app installs the right engine for your graphics card.
+- **Private.** Prompts and pictures never leave your computer. No account is needed to generate.
+- **Good results out of the box.** Every model in the catalog comes with its maker's recommended settings (sampler, steps, CFG, clip skip, VAE, prompt tags), so pictures look the way the model is meant to look.
 
----
+## Features
 
-## 📥 Downloads (v0.1.7)
+| | |
+| :--- | :--- |
+| 🖼️ **Studio** | Text to image with SDXL, SD 1.5, FLUX and more. LoRAs, styles, aspect ratios, HD and 4K upscaling. |
+| 🎛️ **Model settings** | Each model runs with its maker's settings. You can see and change them in the Studio. |
+| ✏️ **Photo editing** | Change a whole picture, or paint over a part and describe what should be there. Your photo keeps its full size, and everything you didn't paint stays exactly as it was. |
+| 🧭 **Guides** | Follow the outline, depth, pose or sketch of a reference picture (ControlNet). |
+| 🧑 **Characters** | Save a person from 1–4 photos and put them in new pictures. |
+| 🧩 **ComfyUI workflows** | Open a ComfyUI workflow file or picture and run it with a simple form. |
+| 🎨 **Photo editor** | Crop, brush, healing, clone, blur, masks, filters and colour adjustments, with undo and redo. |
+| 📥 **Models** | A curated catalog, plus Hugging Face and Civitai browsing. Downloads can be paused and resumed. |
+| 🔄 **Updates** | The app updates itself when a new version comes out. |
 
-Download the pre-compiled installer for your operating system:
-
-| Platform | Architecture | Package | Direct Download Link |
-| :--- | :--- | :--- | :--- |
-| 🪟 **Windows** | x64 (64-bit) | Setup (.exe) | [**Download Windows (.exe)**](https://github.com/Ordryth/imagica-releases/releases/download/v0.1.7/Imagica.Desktop_0.1.7_x64-setup.exe) |
-| 🪟 **Windows** | x64 (Enterprise) | MSI (.msi) | [**Download Windows (.msi)**](https://github.com/Ordryth/imagica-releases/releases/download/v0.1.7/Imagica.Desktop_0.1.7_x64_en-US.msi) |
-| 🍏 **macOS** | Apple Silicon (M1–M4) | DMG (.dmg) | [**Download macOS Apple Silicon (.dmg)**](https://github.com/Ordryth/imagica-releases/releases/download/v0.1.7/Imagica.Desktop_0.1.7_aarch64.dmg) |
-| 🍏 **macOS** | Intel (x64) | DMG (.dmg) | [**Download macOS Intel (.dmg)**](https://github.com/Ordryth/imagica-releases/releases/download/v0.1.7/Imagica.Desktop_0.1.7_x64.dmg) |
-| 🐧 **Linux** | Universal | AppImage | [**Download Linux (.AppImage)**](https://github.com/Ordryth/imagica-releases/releases/download/v0.1.7/Imagica.Desktop_0.1.7_amd64.AppImage) |
-| 🐧 **Linux** | Debian / Ubuntu | DEB (.deb) | [**Download Debian/Ubuntu (.deb)**](https://github.com/Ordryth/imagica-releases/releases/download/v0.1.7/Imagica.Desktop_0.1.7_amd64.deb) |
-
----
-
-## ✨ Features
-
-- **⚡ Native Hardware Acceleration:** Direct integration with NVIDIA CUDA, Apple Metal (MPS), and Microsoft DirectML for lightning-fast local generation.
-- **🎨 RapidRAW Lumetri Suite:** Professional color grading engine featuring tone curves, exposure adjustment, selective color shifts, and cinematic presets.
-- **🖼️ Infinite Imagine Canvas:** Node-based creative workspace for effortless image generation, inpainting, outpainting, and multi-layer compositing.
-- **🤗 Hugging Face Hub Integration:** Seamlessly browse, download, and manage your favorite open-weights models and LoRAs locally.
-- **🔒 Zero Data Telemetry:** 100% offline-ready. No accounts required, no hidden tracking, and no external API dependencies.
+**Not yet:** video generation and a node editor.
 
 ---
 
-## 🛠️ Installation Instructions
+## Download
+
+Get the latest version from the [**Releases page**](https://github.com/Ordryth/imagica-releases/releases/latest).
+
+| System | File to download |
+| :--- | :--- |
+| 🪟 **Windows 10 / 11** (64-bit) | `Imagica.Desktop_<version>_x64-setup.exe` (or the `.msi`) |
+| 🍏 **macOS** (Apple Silicon, M1 or newer) | `Imagica.Desktop_<version>_aarch64.dmg` |
+| 🐧 **Linux**, any distribution | `Imagica.Desktop_<version>_amd64.AppImage` |
+| 🐧 **Ubuntu / Debian** | `Imagica.Desktop_<version>_amd64.deb` |
+| 🐧 **Fedora / openSUSE** | `Imagica.Desktop-<version>-1.x86_64.rpm` |
+
+## Install
 
 ### Windows
-1. Download `Imagica.Desktop_0.1.7_x64-setup.exe`.
-2. Double-click the installer and follow the setup wizard.
-3. Launch **Imagica Desktop** from your Start menu or Desktop shortcut.
+1. Run the `.exe` installer.
+2. If Windows SmartScreen appears, click **More info → Run anyway**.
+3. Open **Imagica Desktop** from the Start menu.
 
-### macOS (Apple Silicon M1/M2/M3/M4 & Intel)
-1. Download `Imagica.Desktop_0.1.7_aarch64.dmg` (for Apple Silicon) or `Imagica.Desktop_0.1.7_x64.dmg` (for Intel).
-2. Open the disk image and drag **Imagica Desktop** into your **Applications** folder.
-3. If macOS shows *"Imagica Desktop is damaged and can't be opened"*, open **Terminal** and run:
+### macOS
+1. Open the `.dmg` and drag **Imagica Desktop** into **Applications**.
+2. If macOS says the app *"is damaged and can't be opened"*, open **Terminal** and run:
    ```bash
    xattr -cr "/Applications/Imagica Desktop.app"
    ```
-   *(Or go to **System Settings** > **Privacy & Security** and click **Open Anyway**).*
+   Or go to **System Settings → Privacy & Security** and click **Open Anyway**.
 
-### Linux (One-Line Universal Installer)
-Run in terminal (supports Ubuntu, Debian, Fedora, Arch, and more):
+### Linux
+AppImage:
 ```bash
-curl -fsSL https://imagica.co.in/install.sh | bash
+chmod +x Imagica.Desktop_*_amd64.AppImage
+./Imagica.Desktop_*_amd64.AppImage
+```
+Ubuntu / Debian:
+```bash
+sudo apt install ./Imagica.Desktop_*_amd64.deb
+```
+Fedora / openSUSE:
+```bash
+sudo dnf install ./Imagica.Desktop-*.x86_64.rpm
 ```
 
-Or run manual packages:
-#### AppImage:
-```bash
-chmod +x Imagica.Desktop_0.1.7_amd64.AppImage
-./Imagica.Desktop_0.1.7_amd64.AppImage
-```
-
-#### Ubuntu / Debian:
-```bash
-sudo dpkg -i Imagica.Desktop_0.1.7_amd64.deb
-```
+### First start
+On first launch the app checks your graphics card and downloads its engine (a few GB, once). Then open **Models**, download a model, and start creating in the **Studio**.
 
 ---
 
-## 📋 System Requirements
+## System requirements
 
-| Specification | Minimum | Recommended |
+| | Minimum | Recommended |
 | :--- | :--- | :--- |
-| **OS** | Windows 10 (64-bit), macOS 12+, Ubuntu 20.04+ | Windows 11, macOS 14+, modern Linux |
-| **CPU** | Quad-core x86_64 or Apple Silicon M1 | 8-core CPU or Apple M2/M3/M4 |
+| **OS** | Windows 10 64-bit, macOS 12, Ubuntu 20.04 | Windows 11, macOS 14, recent Linux |
 | **RAM** | 8 GB | 16 GB or more |
-| **Storage** | 2 GB free space | 10 GB+ SSD free space (for models) |
-| **GPU** | DirectX 12 / Metal / Vulkan capable | NVIDIA RTX 3060+ (8GB+ VRAM) or Apple Silicon |
+| **Graphics** | Works on CPU (slow) | NVIDIA RTX with 8 GB+ VRAM, AMD with ROCm (Linux), or Apple Silicon |
+| **Disk** | 15 GB free | 50 GB+ on an SSD (each model is 2–12 GB) |
 
 ---
 
-## 📄 License
+## Help and feedback
 
-This project is distributed under the [Apache License 2.0](LICENSE).
+Found a bug or have an idea? [Open an issue](https://github.com/Ordryth/imagica-releases/issues). Include your system, your graphics card and what you were doing when it happened.
+
+## License
+
+Released under the [Apache License 2.0](LICENSE). Models you download keep their own licenses. Check each model's page before using its pictures commercially.
