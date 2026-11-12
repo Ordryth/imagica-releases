@@ -1,0 +1,48 @@
+{
+  "tag_name": "v0.1.25",
+  "html_url": "https://github.com/Ordryth/imagica-releases/releases/tag/v0.1.25",
+  "body": "## Imagica Desktop v0.1.25\nHigh-Performance Local AI Creative Studio with RapidRAW Lumetri Suite.\n\n### Platform Packages:\n- **Windows**: `Imagica_v0.1.25_x64-setup.exe` / `.msi`\n- **macOS (Apple Silicon M1-M4)**: `Imagica_v0.1.25_aarch64.dmg`\n- **Linux**: `imagica_v0.1.25_amd64.AppImage` / `.deb`\n\nAll AI inference is powered 100% locally by your hardware acceleration (CUDA / Metal / DirectML).\n\n---\n> \ud83d\udee1\ufe0f **Windows SmartScreen Note**:\n> Because this is a fresh release build without an enterprise EV certificate, Windows SmartScreen may show *\"Windows protected your PC\"*.\n> Simply click **\"More info\"** &rarr; **\"Run anyway\"** to launch the installer.\n>\n> \ud83c\udf4f **macOS Gatekeeper Note**:\n> The first time you open Imagica, macOS may say *\"Apple could not verify Imagica Desktop is free of malware\"*.\n> Click **Done**, then open **System Settings** > **Privacy & Security**, scroll down and click **Open Anyway**.\n> (On macOS 14 and older you can instead right-click the app and choose **Open**.) You only need to do this once.\n>\n> On an Intel Mac, image generation is not available: it needs a Mac with Apple Silicon (M1 or newer).",
+  "published_at": "2026-11-12T03:21:12Z",
+  "assets": [
+    {
+      "name": "desktop_backend.zip",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.25/desktop_backend.zip",
+      "size": 13164897
+    },
+    {
+      "name": "Imagica.Desktop-0.1.25-1.x86_64.rpm",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.25/Imagica.Desktop-0.1.25-1.x86_64.rpm",
+      "size": 27557736
+    },
+    {
+      "name": "Imagica.Desktop_0.1.25_aarch64.dmg",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.25/Imagica.Desktop_0.1.25_aarch64.dmg",
+      "size": 26808455
+    },
+    {
+      "name": "Imagica.Desktop_0.1.25_amd64.AppImage",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.25/Imagica.Desktop_0.1.25_amd64.AppImage",
+      "size": 105769464
+    },
+    {
+      "name": "Imagica.Desktop_0.1.25_amd64.deb",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.25/Imagica.Desktop_0.1.25_amd64.deb",
+      "size": 27558432
+    },
+    {
+      "name": "Imagica.Desktop_0.1.25_x64-setup.exe",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.25/Imagica.Desktop_0.1.25_x64-setup.exe",
+      "size": 26045781
+    },
+    {
+      "name": "Imagica.Desktop_0.1.25_x64_en-US.msi",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.25/Imagica.Desktop_0.1.25_x64_en-US.msi",
+      "size": 26849280
+    },
+    {
+      "name": "Imagica.Desktop_aarch64.app.tar.gz",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.25/Imagica.Desktop_aarch64.app.tar.gz",
+      "size": 26633554
+    }
+  ]
+}
