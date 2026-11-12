@@ -37,9 +37,11 @@ Imagica Desktop makes and edits AI images entirely on your computer. It sets up 
 
 | | |
 | :--- | :--- |
-| 🖼️ **Studio** | Text to image with SDXL, SD 1.5, FLUX and more. LoRAs, styles, aspect ratios, HD and 4K upscaling. |
+| 🖼️ **Studio** | Text to image with SDXL, SD 1.5, FLUX and more. LoRAs, styles, aspect ratios, HD and 4K upscaling. Make 1, 2 or 4 pictures at once. |
+| ✨ **Quality boost** | On by default: small models draw at their own size and get a detail pass, sturdier shapes and sharper faces. |
 | 🎛️ **Model settings** | Each model runs with its maker's settings. You can see and change them in the Studio. |
-| ✏️ **Photo editing** | Change a whole picture, or paint over a part and describe what should be there. Your photo keeps its full size, and everything you didn't paint stays exactly as it was. |
+| ✏️ **Photo editing** | Paste or drag in any picture. Change a whole picture, or paint over a part and describe what should be there. Your photo keeps its full size, and everything you didn't paint stays exactly as it was. Compare before and after, and undo. |
+| ⚡ **Quick edits** | One click: remove background, fix faces, make sharper, make wider or taller. |
 | 🧭 **Guides** | Follow the outline, depth, pose or sketch of a reference picture (ControlNet). |
 | 🧑 **Characters** | Save a person from 1–4 photos and put them in new pictures. |
 | 🧩 **ComfyUI workflows** | Open a ComfyUI workflow file or picture and run it with a simple form. |
