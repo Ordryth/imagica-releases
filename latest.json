@@ -5,6 +5,11 @@
   "published_at": "2026-11-14T06:02:47Z",
   "assets": [
     {
+      "name": "desktop_backend.zip",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.28/desktop_backend.zip",
+      "size": 13176234
+    },
+    {
       "name": "Imagica.Desktop-0.1.28-1.x86_64.rpm",
       "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.28/Imagica.Desktop-0.1.28-1.x86_64.rpm",
       "size": 27568075
