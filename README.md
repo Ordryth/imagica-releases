@@ -79,6 +79,7 @@ Get the latest version from the [**Releases page**](https://github.com/Ordryth/i
    xattr -cr "/Applications/Imagica Desktop.app"
    ```
    Or go to **System Settings → Privacy & Security** and click **Open Anyway**.
+3. Later updates install by themselves: click **Update** in the app and it reopens on the new version.
 
 ### Linux
 AppImage:
@@ -104,10 +105,12 @@ On first launch the app checks your graphics card and downloads its engine (a fe
 
 | | Minimum | Recommended |
 | :--- | :--- | :--- |
-| **OS** | Windows 10 64-bit, macOS 12, Ubuntu 20.04 | Windows 11, macOS 14, recent Linux |
+| **OS** | Windows 10 64-bit, macOS 12.3 on Apple Silicon (M1 or newer), Ubuntu 20.04 | Windows 11, macOS 14, recent Linux |
 | **RAM** | 8 GB | 16 GB or more |
 | **Graphics** | Works on CPU (slow) | NVIDIA RTX with 8 GB+ VRAM, AMD with ROCm (Linux), or Apple Silicon |
 | **Disk** | 15 GB free | 50 GB+ on an SSD (each model is 2–12 GB) |
+
+> **Macs:** Intel Macs aren't supported (on-device AI needs Apple Silicon). On an 8 GB Mac, SD 1.5 models such as Realistic Vision run best; SDXL models need 16 GB or more.
 
 ---
 
