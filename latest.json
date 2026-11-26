@@ -5,9 +5,19 @@
   "published_at": "2026-11-23T20:42:23Z",
   "assets": [
     {
+      "name": "desktop_backend.zip",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.31/desktop_backend.zip",
+      "size": 13176004
+    },
+    {
       "name": "Imagica.Desktop-0.1.31-1.x86_64.rpm",
       "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.31/Imagica.Desktop-0.1.31-1.x86_64.rpm",
       "size": 25931818
+    },
+    {
+      "name": "Imagica.Desktop_0.1.31_aarch64.dmg",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.31/Imagica.Desktop_0.1.31_aarch64.dmg",
+      "size": 25180354
     },
     {
       "name": "Imagica.Desktop_0.1.31_amd64.AppImage",
@@ -28,6 +38,11 @@
       "name": "Imagica.Desktop_0.1.31_x64_en-US.msi",
       "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.31/Imagica.Desktop_0.1.31_x64_en-US.msi",
       "size": 25227264
+    },
+    {
+      "name": "Imagica.Desktop_aarch64.app.tar.gz",
+      "browser_download_url": "https://github.com/Ordryth/imagica-releases/releases/download/v0.1.31/Imagica.Desktop_aarch64.app.tar.gz",
+      "size": 25008297
     }
   ]
 }
